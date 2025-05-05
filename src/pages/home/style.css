@@ -1,0 +1,85 @@
+.image{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 113.99999999999999%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 164;
+    display: flex;
+   align-items: center;
+    margin-left: 450px;
+
+}
+.cont{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 112.99999999999999%;
+    letter-spacing: 0%;
+    margin-left: 20;
+}
+.image2{
+    border-radius: 50%;
+    height: 30;
+}
+.sex{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.dub{
+    font-size: 18px;
+    width: 500;
+    line-height: 121%;
+    display: flex;
+    flex-direction: column;
+    
+}
+body{
+    background-color: #8BA9BE;
+    background-image: linear-gradient(to bottom, #8BA9BE, black 250%);
+}
+h2{
+    font-size: 22px;
+    line-height: 100%;
+}
+h1{
+    text-align: right;
+}
+
+p{
+    text-align: left;
+}
+.cartoes{
+    display: flex;
+    justify-content: flex-start;
+     text-align: center;
+
+}
+.cartao{
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+
+.super{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 210px;
+    overflow: hidden;
+    
+}
+
+.img:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.8);
+}
